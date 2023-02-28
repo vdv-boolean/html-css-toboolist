@@ -5,16 +5,55 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Body and Main */
 body {
     background-color: #f6f8f9;
 }
+
+main {
+    width: 1000px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Header */
 header {
     background-color: white;
- }
+}
 
  .logo {
     display: flex  ;
- }
+}
+
 h1 {
   font-size: 35px;
 }
+
+/* Buttons */
+.button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    font-weight: bolder;
+}
+
+.task {
+    background-color: #46acf0;
+    margin-left: 50px;
+    border-color: #46acf0;
+    color: white;
+}
+
+.section {
+    border-color: lightgrey;
+    background-color: white;
+    color: lightgrey;
+}
+
+hr {
+    border-color: #f6f8f9;
+}
+
