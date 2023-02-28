@@ -57,3 +57,23 @@ hr {
     border-color: #f6f8f9;
 }
 
+/* Unordered list */
+ul {
+    padding: 10px 50px;
+    list-style-type: none;
+}
+
+.title {
+    font-size: 15pt;
+    font-weight: bolder;
+
+}
+
+.title::before {
+    content: "\25BC";
+    margin-right: 10px;
+}
+
+
+
+
