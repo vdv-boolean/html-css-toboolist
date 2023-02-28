@@ -58,6 +58,8 @@ hr {
 }
 
 /* Unordered list */
+
+/* Title */
 ul {
     padding: 10px 50px;
     list-style-type: none;
@@ -72,6 +74,31 @@ ul {
 .title::before {
     content: "\25BC";
     margin-right: 10px;
+}
+
+/* Symbols for subtitle */
+.check,
+.cross {
+    margin-left: -50px;
+}
+.check::before {
+    content: "\2713";
+    color: green;
+    border-color: green;
+}
+
+.cross::before {
+    content: "\2717";
+    color: red;
+    border-color: red;
+}
+
+.check::before,
+.cross::before {
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 10 px;
+    padding: 0 6px;
 }
 
 
