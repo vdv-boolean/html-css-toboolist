@@ -101,6 +101,50 @@ ul {
     padding: 0 6px;
 }
 
+/* Labels */
+.editorial::after {
+    content: "Editorial";
+    background-color: #46acf0;
+}
 
+.q1-goals::after {
+    content: "Q1 Goals";
+    background-color: #9c72e4;
+}
+
+.rescruiting::after {
+    content: "Rescruiting";
+    background-color: #64c0a9;
+}
+
+.mobile::after {
+    content: "Mobile";
+    background-color: #f29e33;
+}
+
+.website::after {
+    content: "Website";
+    background-color: #d863a1;
+}
+
+.sales::after {
+    content: "Sales";
+    background-color: #b0c926;
+    
+}
+
+.editorial::after,
+.q1-goals::after,
+.rescruiting::after,
+.mobile::after,
+.website::after,
+.sales::after {
+
+    margin-left: 5px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 8pt;
+}
 
 
